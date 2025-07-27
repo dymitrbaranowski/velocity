@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* Общие стили  */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.p {
+  color: rgba(106, 133, 156, 1);
+  line-height: 1.8;
+}
+
+.hide{
+  display: none !important;
+}
+.title-wrapper {
+  margin-bottom: 60px;
+}
+
+.title {
+  margin-bottom: 17px;
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: #676770;
+}
+.subtitle {
+  font-size: 17px;
+  line-height: 118%;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8e8e9c;
+}
+.common-section {
+  text-align: center;
+  padding: 80px 0;
+}
+.common-section--dark {
+  background-color: #192024
+}
+.common-section--dark .subtitle {
+  color: #E8E8E8
+}
+.common-section--dark *{
+  color: #ffff
+}
+
+
+/* Header--------------------- */
+
+.header {
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.34)
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.container {
+}
+.logo {
+  font-size: 25px;
+  text-transform: uppercase;
+
+  color: #69b9ff;
+}
+.header__nav ul{
+  display: flex;
+ 
+}
+.header__nav li + li{
+  margin-left: 40px;
+}
+
+.header__nav a {
+  color: #676770
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+.header__nav a:hover {
+  color: #69b9ff;
+}
+.header__nav a:active {
+  color: #0065BD;
+}
+
+/* Main-------------- */
+
+.main {
+}
+
+/* Wellcome */
+.wellcome {
+  min-height: 600px;
+  height: 100vh;
+  padding: 195px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffff;
+  background-color: #2D303C;
+  background-image: url("img/wellcome-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.wellcome__heading {
+  margin-bottom: 100px;
+  font-size: 59px;
+  line-height: 102%;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.wellcome__links {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.link-primary {
+  padding: 12px 30px;
+
+  font-size: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #69b9ff;
+  border: 1px solid #69b9ff;
+
+border-radius: 4px;
+
+transition: background-color 0.2s ease;
+}
+.link-primary:hover {
+  background-color: #7AC1FF
+}
+.link-primary:active {
+  background-color: #1994FF
+  /* border-color: #0065BD; */
+}
+.link {
+  display : inline-block;
+  padding: 13px 30px;
+
+  font-size: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  border: 1px solid #69b9ff;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.link:active {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* About What We Do */
+.about {
+}
+
+.about .cards-wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cards-wrapper {
+}
+.about .card {
+  padding: 35px 15px 20px ;
+  width: 300px;
+  border: 1px solid #dcebf7;
+  border-radius: 5px;
+  width: 300px;
+}
+.about .card img{
+  margin-bottom: 20px;
+
+  width: 94px;
+  height: 94px;
+  border-radius: 5px;
+  object-fit: content;
+  
+}
+.about .card h4{
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #6A859C
+}
+
+/* Services---------------- */
+
+.services {
+}
+
+
+.services .cards-wrapper {
+  display: flex;
+  justify-content: centr;
+ 
+  gap: 50px;
+}
+.services .card {
+  width: 45%;
+}
+.services .card img {
+  margin-bottom: 20px;
+}
+.services .card h4 {
+  margin-bottom: 20px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+
+}
+.services .link {
+  margin-top: 15px;
+}
