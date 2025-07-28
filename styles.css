@@ -246,3 +246,52 @@ transition: background-color 0.2s ease;
 .services .link {
   margin-top: 15px;
 }
+
+
+/* Tabs--------------- */
+
+
+.tab-section {
+}
+
+.tabs {
+}
+.tabs__nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.tabs__nav  button{
+  padding: 0 30px;
+  font-size: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+
+  background-color: #92A0AD;
+  border-radius: 4px;
+}
+.tabs__nav  button.active{
+  background-color: #2E80B6
+
+}
+.active {
+}
+.tabs__item img{
+  margin-bottom: 15px;
+}
+
+.tabs__item h4{
+  margin-bottom: 15px;
+  font-size: 31px;
+  line-height: 116%;
+  text-align: center;
+  color: #676770;
+}
+.tabs__desc {
+  max-width: 720px;
+  margin-left: auto;
+  margin:0  auto;
+  color: #6A859C
+}
