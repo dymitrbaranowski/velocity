@@ -75,8 +75,7 @@ color: #6a859c;
   align-items: center;
   padding: 20px 0;
 }
-.container {
-}
+
 .logo {
   font-size: 25px;
   text-transform: uppercase;
@@ -380,6 +379,6 @@ transition: background-color 0.2s ease;
 
 @media (max-width: 400px){
   .header__nav li + li {
-    margin-left: 
+    margin-left: 15px;
   }
 }
