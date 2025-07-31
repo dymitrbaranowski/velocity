@@ -189,6 +189,8 @@ transition: background-color 0.2s ease;
   display: flex;
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center; 
 }
 
 .cards-wrapper {
