@@ -129,6 +129,8 @@ color: #6a859c;
   line-height: 102%;
   letter-spacing: 0.07em;
   text-transform: uppercase;
+  text-align: center;
+
 }
 
 .wellcome__links {
@@ -197,7 +199,7 @@ transition: background-color 0.2s ease;
 }
 .about .card {
   padding: 35px 15px 20px ;
-  width: 300px;
+  max-width: 300px;
   border: 1px solid #dcebf7;
   border-radius: 5px;
   width: 300px;
@@ -382,4 +384,24 @@ transition: background-color 0.2s ease;
   .header__nav li + li {
     margin-left: 15px;
   }
+  .wellcome__heading {
+  font-size: 40px;
+  margin-bottom: 50px;
+ }
+
+ .wellcome__links {
+  flex-direction: column;
+ }
+ .wellcome__links a{
+  display: block;
+margin:0 auto;
 }
+body {
+  font-size: 12px;
+}
+
+.about .card h4{
+  font-size: 16px;
+}
+}
+
