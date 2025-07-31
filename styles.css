@@ -380,6 +380,6 @@ transition: background-color 0.2s ease;
 
 @media (max-width: 400px){
   .header__nav li + li {
-    margin-left: 
+    margin-left: 15px;
   }
 }
