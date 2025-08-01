@@ -231,7 +231,7 @@ transition: background-color 0.2s ease;
 
 .services .cards-wrapper {
   display: flex;
-  justify-content: centr;
+  justify-content: center;
  
   gap: 50px;
 }
@@ -403,5 +403,36 @@ body {
 .about .card h4{
   font-size: 16px;
 }
+  .services .card h4{
+    font-size: 16px;
+  }
+  .services .card .link{
+    font-size: 12px;
+    
+    padding: 10px 10px;
+  }
 }
 
+
+@media(max-width: 600px){
+  .services .cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .services .cards{
+    width: 80%;
+  }
+
+  .title-wrapper {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media(max-width: 660px){
+  .tabs__nav button  {
+   flex-direction:   
+  }
+}
