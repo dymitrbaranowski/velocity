@@ -80,7 +80,7 @@ color: #6a859c;
 .logo {
   font-size: 25px;
   text-transform: uppercase;
-
+ cursor: pointer;
   color: #69b9ff;
 }
 .header__nav ul{

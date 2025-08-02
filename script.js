@@ -32,8 +32,8 @@ tabsBtns.forEach((btn, index) =>
 );
 
 //Anchors-----------
-const anchors = document.querySelectorAll(".header__nav a");
-
+const anchors = document.querySelectorAll(".header__nav a, .header a");
+console.log(anchors);
 anchors.forEach((anc) => {
   anc.addEventListener("click", function (event) {
     event.preventDefault();
@@ -46,3 +46,5 @@ anchors.forEach((anc) => {
     });
   });
 });
+
+// const anchors = document.querySelectorAll(".header__nav a .header a");
